@@ -1,4 +1,4 @@
-# MICML: Motion-Inspired Cross-Modal Learning for Small Object Detection in Satellite Videos
+# SSTNet: Sliced spatio-temporal network with cross-slice ConvLSTM for moving infrared dim-small target detection
 
 ![outline](./readme/method.png)
 
