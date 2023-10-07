@@ -46,9 +46,15 @@ python vid_map_coco.py
 python vid_predict.py
 ```
 
-### Results
-![outline](./readme/PR1.png)
-![outline](./readme/PR2.png)
+## PR results on the DAUB and IRDST datasets
+
+| ![DAUB](./readme/PR1.png) |
+|:--:|
+| *DAUB* |
+
+| ![IRDST](./readme/PR2.png) |
+|:--:|
+| *IRDST* |
 
 ## Contact
 If any questions, kindly contact with Shengjia Chen via e-mail: csj_uestc@126.com.
