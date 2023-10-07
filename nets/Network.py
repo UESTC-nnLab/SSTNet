@@ -241,7 +241,7 @@ class Network(nn.Module):
         self.mapping0 = nn.Sequential(
                 nn.Conv2d(128*num_frame, 128, kernel_size=1, stride=1, padding=0, bias=False),
                 nn.LeakyReLU())
-        self.SSTNet = SSTNet(input_dim=64, hidden_dim=[64,64], kernel_size=(3, 3), num_slices=2, num_layers=2)
+        self.SSTNet = SSTNet(input_dim=64, hidden_dim=[64], kernel_size=(3, 3), num_slices=1, num_layers=1)
         self.mapping1 = nn.Sequential(
                 nn.Conv2d(3, 32, kernel_size=5, stride=4, padding=1, bias=False),
                 nn.LeakyReLU(),
