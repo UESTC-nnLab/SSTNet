@@ -1,6 +1,6 @@
 # MICML: Motion-Inspired Cross-Modal Learning for Small Object Detection in Satellite Videos
 
-![outline](.readme/method.png)
+![outline](..readme/method.png)
 
 ## Introduction
 Infrared dim-small target detection, as an important branch of object detection, has been attracting research attention in recent decades. Its challenges mainly lie in the small target sizes and dim contrast in background images. The recent research schemes on it have mainly focused on improving the feature representation of spatio-temporal domains only in single-slice scope. More cross-slice context is seldom considered to enhance target features. To utilize cross-slice context, this paper proposes a sliced spatio-temporal network (SSTNet) with cross-slice enhancement for moving infrared dim-small target detection. In our scheme, a new cross-slice ConvLSTM node is designed to capture spatio-temporal motion features from both inner-slice and inter-slices. Moreover, to improve the learning of target motion features, we extend conventional loss function by adopting a new motion-compensation loss term. On these, we propose a motion-coupling neck to assist feature extractor to facilitate the capturing and utilization of motion features from multi-frames. To our best knowledge, it is the first time to explore the cross-slice spatio-temporal motion modeling for infrared dim-small targets. Experiments verify that our SSTNet could refresh most state-of-the-art metrics on two public datasets DAUB and IRDST.
@@ -47,8 +47,8 @@ python vid_predict.py
 ```
 
 ### Results
-![outline](.readme/PR1.png)
-![outline](.readme/PR2.png)
+![outline](..readme/PR1.png)
+![outline](..readme/PR2.png)
 
 ## Contact
 If any questions, kindly contact with Shengjia Chen via e-mail: csj_uestc@126.com.
