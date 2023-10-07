@@ -46,7 +46,7 @@ python vid_map_coco.py
 python vid_predict.py
 ```
 
-## PR results on the DAUB and IRDST datasets
+## PR curve on DAUB and IRDST datasets
 
 <img src="/readme/PR1.png" width="500px">
 <img src="/readme/PR2.png" width="500px">
