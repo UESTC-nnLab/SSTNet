@@ -11,7 +11,7 @@ Infrared dim-small target detection, as an important branch of object detection,
 
 - Datasets are available at [DUAB](https://www.scidb.cn/en/detail?dataSetId=720626420933459968) and [IRDST](https://xzbai.buaa.edu.cn/datasets.html).
 
--The COCO format need to convert to txt format.
+- The COCO format need to convert to txt format.
 ``` python 
 python utils_coco/coco_to_txt.py
 ```
@@ -19,13 +19,13 @@ python utils_coco/coco_to_txt.py
 
 ## Prerequisite
 
-*python==3.10.11
-*pytorch==1.12.0
-*torchvision==0.13.0
-*numpy==1.24.3
-*opencv-python==4.7.0.72
-*pillow==9.5.0
-*scipy==1.10.1
+* python==3.10.11
+* pytorch==1.12.0
+* torchvision==0.13.0
+* numpy==1.24.3
+* opencv-python==4.7.0.72
+* pillow==9.5.0
+* scipy==1.10.1
 * Tested on Ubuntu 20.04, with CUDA 11.3, and 2x NVIDIA 3090.
 
 
