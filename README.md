@@ -48,13 +48,8 @@ python vid_predict.py
 
 ## PR results on the DAUB and IRDST datasets
 
-| ![DAUB](./readme/PR1.png) |
-|:--:|
-| *DAUB* |
-
-| ![IRDST](./readme/PR2.png) |
-|:--:|
-| *IRDST* |
+<img src="/readme/PR1.png" width="500px">
+<img src="/readme/PR2.png" width="500px">
 
 ## Contact
 If any questions, kindly contact with Shengjia Chen via e-mail: csj_uestc@126.com.
