@@ -49,7 +49,7 @@ if __name__ == "__main__":
         start_time = time.perf_counter()
 
         with torch.no_grad():
-            Tasanet(num_classes, num_frame=5).to('cuda')(data[0].to('cuda'))
+            Network(num_classes, num_frame=5).to('cuda')(data[0].to('cuda'))
 
         torch.cuda.synchronize()
         elapsed = time.perf_counter() - start_time
