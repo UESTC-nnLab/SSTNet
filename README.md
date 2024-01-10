@@ -35,7 +35,7 @@ python utils_coco/coco_to_txt.py
 
 ### Train
 ```python
-CUDA_VISIBLE_DEVICES={GPU ID} python train_{dataset}.py
+CUDA_VISIBLE_DEVICES=0 python train_{dataset}.py
 ```
 
 ### Test
