@@ -1,4 +1,6 @@
-# SSTNet: Sliced spatio-temporal network with cross-slice ConvLSTM for moving infrared dim-small target detection (TGRS2024)
+# SSTNet
+
+The Pytorch implementation of the **TGRS 2024** paper [**SSTNet: Sliced spatio-temporal network with cross-slice ConvLSTM for moving infrared dim-small target detection**](http://ieeexplore-ieee-org-s.vpn.uestc.edu.cn:8118/stamp/stamp.jsp?tp=&arnumber=10381806)
 
 ![outline](./readme/method.png)
 
@@ -39,6 +41,7 @@ CUDA_VISIBLE_DEVICES=0 python train_{dataset}.py
 ```
 
 ### Test
+- Usually model_best.pth is not necessarily the best model. The best model may have a lower val_loss or a higher AP50 during verification.
 ```python
 python vid_map_coco.py
 ```
