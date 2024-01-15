@@ -24,10 +24,10 @@ map_mode            = 0
 #-------------------------------------------------------#
 #   指向了验证集标签与图片路径
 #-------------------------------------------------------#
-# cocoGt_path         = '/home/public/DAUB/annotations/instances_test2017.json'
-# dataset_img_path    = '/home/public/DAUB/'
-cocoGt_path         = '/home/public/IRDST/annotations/instances_test2017.json'
-dataset_img_path    = '/home/public/IRDST/'
+cocoGt_path         = '/home/public/DAUB/annotations/instances_test2017.json'
+dataset_img_path    = '/home/public/DAUB/'
+# cocoGt_path         = '/home/public/IRDST/annotations/instances_test2017.json'
+# dataset_img_path    = '/home/public/IRDST/'
 #-------------------------------------------------------#
 #   结果输出的文件夹，默认为map_out
 #-------------------------------------------------------#
