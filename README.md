@@ -1,6 +1,6 @@
 # SSTNet
 
-The Pytorch implementation of the **TGRS 2024** paper [**SSTNet: Sliced spatio-temporal network with cross-slice ConvLSTM for moving infrared dim-small target detection**](http://ieeexplore-ieee-org-s.vpn.uestc.edu.cn:8118/stamp/stamp.jsp?tp=&arnumber=10381806)
+The Pytorch implementation of the **TGRS 2024** paper [**SSTNet: Sliced spatio-temporal network with cross-slice ConvLSTM for moving infrared dim-small target detection**](https://ieeexplore.ieee.org/abstract/document/10381806)
 
 ![outline](./readme/method.png)
 
