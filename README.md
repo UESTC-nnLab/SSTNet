@@ -12,7 +12,7 @@ Infrared dim-small target detection, as an important branch of object detection,
 ## Datasets
 
 - Datasets are available at [DUAB](https://pan.baidu.com/s/1nNTvjgDaEAQU7tqQjPZGrw?pwd=saew)(code: saew) and [IRDST](https://xzbai.buaa.edu.cn/datasets.html).
-
+- Or you can download them directly from the website: [DAUB](https://www.scidb.cn/en/detail?dataSetId=720626420933459968) and [IRDST](https://xzbai.buaa.edu.cn/datasets.html). In addition, you need to reorganize these datasets in a format similar to the **coco_train.txt** file we provided.
 
 - The COCO format json file needs to be converted into a txt format file. We provide txt format files for DAUB and IRDST.
 - Or you can generate a new txt file based on the path of your datasets. We also provide [json](./json) files for DAUB and IRDST.
