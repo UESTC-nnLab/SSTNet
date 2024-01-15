@@ -226,7 +226,7 @@ class Network(nn.Module):
     def __init__(self, num_classes, fp16=False, num_frame=10):
         super(Network, self).__init__()
         self.num_frame = num_frame
-        self.feature = Feature_Extractor(0.33,0.50) 
+        self.backbone = Feature_Extractor(0.33,0.50) 
 
         #-----------------------------------------#
         #   尺度感知模块
@@ -258,7 +258,7 @@ class Network(nn.Module):
     def forward(self, inputs): #4, 3, 5, 512, 512
         feat = []
         for i in range(self.num_frame):
-            feat.append(self.feature(inputs[:,:,i,:,:]))
+            feat.append(self.backbone(inputs[:,:,i,:,:]))
         """[b,128,32,32][b,256,16,16][b,512,8,8]"""
         
         if self.training:
