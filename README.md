@@ -74,12 +74,13 @@ If you find this repo useful, please cite our paper.
 @ARTICLE{sstnet2024,
   author={Chen, Shengjia and Ji, Luping and Zhu, Jiewen and Ye, Mao and Yao, Xiaoyong},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={SSTNet: Sliced spatio-temporal network with cross-slice ConvLSTM for moving infrared dim-small target detection}, 
+  title={SSTNet: Sliced Spatio-Temporal Network With Cross-Slice ConvLSTM for Moving Infrared Dim-Small Target Detection}, 
   year={2024},
-  volume={},
+  volume={62},
   number={},
-  pages={1-1},
+  pages={1-12},
   doi={10.1109/TGRS.2024.3350024}}
+
   
 ```
 
