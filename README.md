@@ -80,8 +80,6 @@ If you find this repo useful, please cite our paper.
   number={},
   pages={1-12},
   doi={10.1109/TGRS.2024.3350024}}
-
-  
 ```
 
 
