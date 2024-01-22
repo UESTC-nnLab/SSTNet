@@ -115,9 +115,9 @@ if __name__ == "__main__":
     #
     #   余弦退火算法的参数放到下面的lr_decay_type中设置
     #------------------------------------------------------------------#
-    mosaic              = True
+    mosaic              = False
     mosaic_prob         = 0.5
-    mixup               = True
+    mixup               = False
     mixup_prob          = 0.5
     special_aug_ratio   = 0.7
 
