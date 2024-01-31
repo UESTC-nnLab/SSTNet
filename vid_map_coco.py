@@ -226,7 +226,7 @@ if __name__ == "__main__":
         recall_50 = recalls[0,0,0,-1] # 第二为类别 (T,K,A,M)
 
         
-        print("Precision: %.4f, Recall: %.4f" %(np.mean(precision_50[:int(recall_50*100)]), recall_50))
+        print("Precision: %.4f, Recall: %.4f, F1: %.4f" %(np.mean(precision_50[:int(recall_50*100)]), recall_50, 2*recall_50*np.mean(precision_50[:int(recall_50*100)])/( recall_50+np.mean(precision_50[:int(recall_50*100)]))))
         print("Get map done.")
         
         # 画图
