@@ -222,8 +222,8 @@ class Pred_vid(object):
 
             for i in range(thickness):
                 draw.rectangle([left + i, top + i, right - i, bottom - i], outline=self.colors[c])
-            #draw.rectangle([tuple(text_origin), tuple(text_origin + label_size[:2])], fill=self.colors[c])
-            draw.rectangle([tuple(text_origin), tuple(text_origin)], fill=self.colors[c])
+            # draw.rectangle([tuple(text_origin), tuple(text_origin + label_size[:2])], fill=self.colors[c])
+            # draw.rectangle([tuple(text_origin), tuple(text_origin)], fill=self.colors[c])
             # draw.text(text_origin, str(label,'UTF-8'), fill=(0, 0, 0), font=font)
             del draw
 
