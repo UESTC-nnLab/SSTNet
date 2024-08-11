@@ -57,7 +57,7 @@ python vid_predict.py
 <table>
   <tr>
     <th>Method</th>
-    <th>Data</th>
+    <th>Dataset</th>
     <th>mAP50 (%)</th>
     <th>Precision (%)</th>
     <th>Recall (%)</th>
