@@ -71,7 +71,7 @@ python vid_predict.py
     <td align="center">98.08</td>
     <td align="center">98.10</td>
     <td align="center">98.09</td>
-    <td rowspan="2" align="center"><a href="https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2">model</a> (code: yvm2)</td>
+    <td rowspan="2" align="center"><a href="https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2">models</a> (code: yvm2)</td>
   </tr>
   <tr>
     <td align="center">SSTNet</td>
@@ -84,7 +84,7 @@ python vid_predict.py
 </table>
 
 
-- PR curve on DAUB and IRDST datasets.
+- PR curves on DAUB and IRDST datasets.
 - We provide the results on [DAUB](./readme/DAUB_results) and [IRDST](./readme/IRDST_results), and you can plot them using Python.
 
 <img src="/readme/PR1.png" width="500px">
