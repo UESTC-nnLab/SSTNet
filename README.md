@@ -76,7 +76,7 @@ python vid_predict.py
   <tr>
     <td align="center">SSTNet</td>
     <td align="center">IRDST</td>
-    <td align="center">91.55</td>
+    <td align="center">71.55</td>
     <td align="center">88.56</td>
     <td align="center">81.92</td>
     <td align="center">85.11</td>
