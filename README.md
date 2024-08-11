@@ -52,11 +52,37 @@ python vid_predict.py
 ```
 
 ## Results
--Pre-trained models
-| Method | Data  |  mAP50 (%)  | Precision (%) | Recall (%) | F1 (%) | Download | 
-| :---:   | :---:  | :---:        | :---:     | :---:  | :---:  | :---:    |
-| SSTNet | DAUB | 95.59 | 98.08 | 98.10 | 98.09 | [model](https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2)(code: yvm2)|
-| SSTNet | IRDST | 91.55 | 88.56 | 81.92 | 85.11 | [model](https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2)(code: yvm2)|
+- Pre-trained models
+
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Data</th>
+    <th>mAP50 (%)</th>
+    <th>Precision (%)</th>
+    <th>Recall (%)</th>
+    <th>F1 (%)</th>
+    <th>Download</th>
+  </tr>
+  <tr>
+    <td align="center">SSTNet</td>
+    <td align="center">DAUB</td>
+    <td align="center">95.59</td>
+    <td align="center">98.08</td>
+    <td align="center">98.10</td>
+    <td align="center">98.09</td>
+    <td rowspan="2" align="center"><a href="https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2">model</a> (code: yvm2)</td>
+  </tr>
+  <tr>
+    <td align="center">SSTNet</td>
+    <td align="center">IRDST</td>
+    <td align="center">91.55</td>
+    <td align="center">88.56</td>
+    <td align="center">81.92</td>
+    <td align="center">85.11</td>
+  </tr>
+</table>
+
 
 - PR curve on DAUB and IRDST datasets.
 - We provide the results on [DAUB](./readme/DAUB_results) and [IRDST](./readme/IRDST_results), and you can plot them using Python.
