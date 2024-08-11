@@ -52,6 +52,11 @@ python vid_predict.py
 ```
 
 ## Results
+-Pre-trained models
+| Method | Data  |  mAP50 (%)  | Precision (%) | Recall (%) | F1 (%) | Download | 
+| :---:   | :---:  | :---:        | :---:     | :---:  | :---:  | :---:    |
+| SSTNet | DAUB | 95.59 | 98.08 | 98.10 | 98.09 | [model](https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2)(code: yvm2)|
+| SSTNet | IRDST | 91.55 | 88.56 | 81.92 | 85.11 | [model](https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2)(code: yvm2)|
 
 - PR curve on DAUB and IRDST datasets.
 - We provide the results on [DAUB](./readme/DAUB_results) and [IRDST](./readme/IRDST_results), and you can plot them using Python.
