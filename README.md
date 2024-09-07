@@ -73,14 +73,6 @@ python vid_predict.py
     <td align="center">98.09</td>
     <td rowspan="2" align="center"><a href="https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2">models</a> (code: yvm2)</td>
   </tr>
-  <tr>
-    <td align="center">SSTNet</td>
-    <td align="center">IRDST</td>
-    <td align="center">71.55</td>
-    <td align="center">88.56</td>
-    <td align="center">81.92</td>
-    <td align="center">85.11</td>
-  </tr>
 </table>
 
 
