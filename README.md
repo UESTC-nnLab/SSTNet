@@ -71,7 +71,7 @@ python vid_predict.py
     <td align="center">98.08</td>
     <td align="center">98.10</td>
     <td align="center">98.09</td>
-    <td rowspan="2" align="center"><a href="https://pan.baidu.com/s/1fkDCHvWteua_9QwNGOZbcw?pwd=yvm2">models</a> (code: yvm2)</td>
+    <td rowspan="2" align="center"><a href="https://pan.baidu.com/s/1EuemT8BaBOlV5RSW5UsNtw?pwd=68sq">models</a> (code: 68sq)</td>
   </tr>
 </table>
 
